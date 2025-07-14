@@ -4,7 +4,8 @@
 import streamlit as st
 from landing_page import render_landing_page
 
-
+# Tab name and layout
 st.set_page_config(page_title="TARA", layout="wide")
 
+# New User lands on the 
 render_landing_page()
