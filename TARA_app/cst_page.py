@@ -4,7 +4,7 @@ from lognavigation_bar import render_log_navbar
 st.set_page_config(page_title="TARA", layout="wide")
 
 def render_career_suitability_page():
-    render_log_navbar();
+    render_log_navbar()
     page_bg_img = """
     <style>
     [data-testid="stAppViewContainer"] {
